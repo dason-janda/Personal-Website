@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dason Janda - Projects</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="topnav">
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram.svg"
+                        alt="Instagram"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://www.github.com/" target="_blank"><img src="images/GitHub.svg" alt="GitHub"></a>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+
+        <div class="top">
+            <h1>My Projects</h1>
+        </div>
+
+        <div class="projects-list">
+
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="images/BubbleSortImage.png" alt="Image of bubble sort code">
+                </div>
+                <div class="project-text">
+                    <h3>Bubble Sort Algorithm</h3>
+                    <p>This project demonstrates the Bubble Sort algorithm running from an external Python file using
+                        PyScript.
+                    </p>
+                    <p><strong>Bubble Sort Result:</strong></p>
+                    <p id="quicksort-output">Final output below</p>
+
+                    <py-script src="quicksort.py"></py-script>
+
+                </div>
+            </div>
+
+            <div class="project-item project-reverse">
+                <div class="project-image">
+                    <img src="images/MapReduce.png" alt="Image of Map-Reduce example">
+                </div>
+                <div class="project-text">
+                    <h3>MapReduce</h3>
+                    <p>This project was written in GO and works to divide up work for processing large datasets in
+                        parallel across many different machines then combining all of those machines outputs into a
+                        single output </p>
+
+                    <a href="https://github.com/luk3how3l/MapReduce" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="images/Music.jpg" alt="Image of Music Sheet">
+                </div>
+                <div class="project-text">
+                    <h3>Musical Score Project</h3>
+                    <p>This C++ project involved constructing instruments from waveforms and being able to read and
+                        write sheet music for those instruments to play.</p>
+
+                    <a href="https://github.com/dsu-cit-cs3005/cs3005-202520-proj-d00476471" target="_blank">View on
+                        GitHub</a>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            Copyright &copy; 2025 Dason Janda
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
